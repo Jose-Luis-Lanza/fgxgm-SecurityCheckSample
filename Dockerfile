@@ -1,6 +1,6 @@
 FROM 18.20.8-bookworm-slim
 
-RUN npm install -g npm@9.1.3
+RUN npm install -g npm@4.21.2
 
 ADD package.json .
 ADD index.js .
